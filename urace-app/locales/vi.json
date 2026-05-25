@@ -1,0 +1,198 @@
+{
+  "language": {
+    "title": "Ngôn ngữ",
+    "select": "Chọn ngôn ngữ hiển thị",
+    "display": "Hiển thị ngôn ngữ của bạn"
+  },
+  "theme": {
+    "title": "Giao diện",
+    "light": "Sáng",
+    "dark": "Tối"
+  },
+  "profile": {
+    "title": "Hồ sơ của tôi",
+    "default_name": "Người dùng",
+    "default_email": "email@example.com",
+    "sections": {
+      "account": "CÀI ĐẶT TÀI KHOẢN",
+      "preferences": "GIAO DIỆN & NGÔN NGỮ",
+      "strava": "TÍCH HỢP STRAVA"
+    },
+    "menu": {
+      "detail_information": {
+        "label": "Thông tin chi tiết",
+        "description": "Cập nhật thông tin hồ sơ của bạn"
+      },
+      "change_password": {
+        "label": "Đổi mật khẩu",
+        "description": "Cập nhật mật khẩu tài khoản"
+      }
+    },
+    "preferences_menu": {
+      "language": {
+        "label": "Ngôn ngữ",
+        "description": "Chọn ngôn ngữ hiển thị"
+      },
+      "theme": {
+        "label": "Giao diện",
+        "description": "Chế độ sáng / tối"
+      }
+    },
+    "strava": {
+      "connect": "Kết nối Strava",
+      "sync": "Tự động đồng bộ hoạt động của bạn",
+      "connected": "Đã kết nối",
+      "default_initial": "S"
+    },
+    "actions": {
+      "logout": "Đăng xuất"
+    },
+    "units": {
+      "height": "cm",
+      "weight": "kg"
+    }
+  },
+  "activities": {
+    "today": "Hôm nay",
+    "week": "Tuần",
+    "month": "Tháng",
+    "year": "Năm",
+    "distance": "Quãng đường",
+    "time_stats": "Thời gian & thống kê",
+    "pace_trend": "Xu hướng pace",
+    "workout_type": "Loại bài tập",
+    "title": "Hoạt động của tôi",
+    "total": "{{count}} hoạt động",
+    "statistics": "Thống kê",
+    "recent": "Hoạt động gần đây",
+    "count": "{{count}} hoạt động",
+    "no_data_title": "Chưa có hoạt động",
+    "no_data_desc": "Có vẻ gần đây bạn chưa có hoạt động nào. Chúng tôi luôn sẵn sàng khi bạn bắt đầu!",
+    "no_data_period": "Không có hoạt động trong khoảng thời gian này",
+    "connect_strava_title": "Kết nối với Strava",
+    "connect_strava_desc": "Kết nối tài khoản Strava để tự động đồng bộ hoạt động của bạn.",
+    "connect_strava_first": "Vui lòng kết nối tài khoản Strava trước",
+    "sync_success": "Đồng bộ hoạt động thành công",
+    "sync_failed": "Đồng bộ hoạt động thất bại",
+    "try_again": "Vui lòng thử lại sau"
+  },
+  "validation": {
+    "currentPasswordRequired": "Vui lòng nhập mật khẩu hiện tại",
+    "newPasswordRequired": "Vui lòng nhập mật khẩu mới",
+    "passwordMinLength": "Mật khẩu phải có ít nhất 8 ký tự",
+    "passwordsDoNotMatch": "Mật khẩu không khớp"
+  },
+  "common": {
+    "updating": "Đang cập nhật...",
+    "cancel": "Hủy",
+    "loading": "Đang tải..."
+  },
+  "auth": {
+    "passwordHint": "Hãy dùng mật khẩu mạnh có ít nhất 8 ký tự, bao gồm số và ký tự đặc biệt.",
+    "updatePassword": "Cập nhật mật khẩu"
+  },
+  "toast": {
+    "updateProfileSuccess": "Cập nhật hồ sơ thành công",
+    ".updateProfileFailed": "Cập nhật hồ sơ thất bại"
+  },
+  "detail-profile": {
+    "edit": "Chỉnh sửa hồ sơ",
+    "update": "Cập nhật thông tin cá nhân của bạn"
+  },
+  "groups": {
+    "title": "Nhóm",
+    "subtitle": "Kết nối với cộng đồng chạy bộ của bạn",
+    "search_placeholder": "Tìm kiếm nhóm...",
+    "my_groups": "Nhóm của tôi",
+    "discover_groups": "Khám phá",
+    "no_joined_groups": "Bạn chưa tham gia nhóm nào. Hãy tạo nhóm hoặc tìm nhóm khác để tham gia!",
+    "no_available_groups": "Hiện chưa có nhóm nào để tham gia. Hãy thử lại sau hoặc tự tạo nhóm của bạn.",
+    "no_search_result": "Không tìm thấy nhóm nào cho \"{{query}}\"",
+    "create_group": "Tạo nhóm"
+  },
+  "group_detail": {
+    "title": "Chi tiết nhóm",
+    "edit_group": "Chỉnh sửa nhóm",
+    "cancel_request": "Hủy yêu cầu",
+    "join_group": "Tham gia nhóm",
+    "delete_group": "Xóa nhóm",
+    "leave_group": "Rời nhóm",
+    "tabs": {
+      "contests": "Cuộc thi",
+      "members": "Thành viên"
+    },
+    "toast": {
+      "delete_success": "Xóa nhóm thành công",
+      "delete_failed": "Xóa nhóm thất bại",
+      "leave_success": "Rời nhóm thành công",
+      "leave_failed": "Rời nhóm thất bại",
+      "request_success": "Gửi yêu cầu tham gia thành công",
+      "request_failed": "Có lỗi xảy ra khi gửi yêu cầu tham gia nhóm",
+      "cancel_request_success": "Hủy yêu cầu thành công",
+      "cancel_request_failed": "Có lỗi xảy ra khi hủy yêu cầu"
+    },
+    "modal": {
+      "delete_title": "Xóa nhóm?",
+      "delete_message": "Hành động này không thể hoàn tác. Tất cả cuộc thi và thành viên trong \"{{groupName}}\" sẽ bị xóa vĩnh viễn.",
+      "delete_confirm": "Xóa",
+      "leave_title": "Rời nhóm?",
+      "leave_message": "Bạn có chắc muốn rời nhóm này không? Bạn sẽ mất quyền truy cập vào tất cả cuộc thi và hoạt động.",
+      "leave_confirm": "Rời nhóm",
+      "join_title": "Tham gia nhóm?",
+      "join_message": "Gửi yêu cầu tham gia \"{{groupName}}\"? Quản trị viên cần phê duyệt yêu cầu của bạn.",
+      "join_confirm": "Gửi yêu cầu",
+      "cancel_request_title": "Hủy yêu cầu?",
+      "cancel_request_message": "Bạn có chắc muốn hủy yêu cầu tham gia không? Bạn sẽ cần gửi yêu cầu mới nếu đổi ý.",
+      "cancel_request_confirm": "Hủy yêu cầu",
+      "go_back": "Quay lại"
+    },
+    "private_group_title": "Đây là nhóm riêng tư",
+    "private_contests_content": "Bạn cần là thành viên để xem thông tin cuộc thi",
+    "private_members_content": "Bạn cần là thành viên để xem thông tin thành viên"
+  },
+  "connect_strava": {
+    "title": "Tích hợp Strava",
+    "subtitle": "Đồng bộ hoạt động chạy bộ của bạn",
+    "connected_title": "Đã kết nối với Strava",
+    "connected_desc": "Hoạt động của bạn đang được tự động đồng bộ",
+    "syncing_active": "Đang đồng bộ",
+    "disconnect": "Ngắt kết nối Strava",
+    "connect_title": "Kết nối với Strava",
+    "connect_desc": "Liên kết tài khoản Strava để tự động đồng bộ hoạt động chạy bộ và đạp xe của bạn",
+    "feature_auto_sync": "Tự động đồng bộ hoạt động",
+    "feature_track_progress": "Theo dõi tiến độ của bạn",
+    "feature_compete": "Thi đấu cùng bạn bè",
+    "connect_button": "Kết nối với Strava",
+    "redirect_note": "Bạn sẽ được chuyển sang Strava để cấp quyền",
+    "toast_connected_title": "Kết nối Strava thành công!",
+    "toast_connected_desc": "Hoạt động của bạn sẽ được tự động đồng bộ",
+    "toast_connection_failed_title": "Kết nối thất bại",
+    "toast_connection_cancelled": "Đã hủy kết nối",
+    "toast_init_failed": "Không thể khởi tạo kết nối",
+    "toast_connect_failed_title": "Không thể kết nối với Strava",
+    "toast_try_again": "Vui lòng thử lại",
+    "error_access_denied": "Bạn đã hủy cấp quyền Strava",
+    "error_missing_code": "Ủy quyền thất bại - thiếu mã xác thực",
+    "error_missing_state": "Phiên không hợp lệ - vui lòng thử lại",
+    "error_invalid_state": "Phiên không hợp lệ - vui lòng đăng nhập lại",
+    "error_invalid_token": "Phiên đã hết hạn - vui lòng đăng nhập lại",
+    "error_user_not_found": "Không tìm thấy người dùng - vui lòng đăng nhập lại",
+    "error_server": "Lỗi máy chủ - vui lòng thử lại",
+    "error_already_connected": "Tài khoản của bạn đã được kết nối",
+    "error_strava_already_connected": "Tài khoản Strava này đã được kết nối với người dùng khác",
+    "error_token_exchange_failed": "Kết nối thất bại - vui lòng thử lại",
+    "error_strava_auth_failed": "Kết nối thất bại - vui lòng thử lại",
+    "error_unknown": "Đã xảy ra lỗi"
+  },
+  "tabs": {
+    "dashboard": "Trang chủ",
+    "groups": "Nhóm",
+    "activities": "Hoạt động",
+    "connect": "Liên kết",
+    "profile": "Cá nhân"
+},
+ "healthConnect": {
+    "syncSuccess": "Đồng bộ Health Connect thành công",
+    "syncFailed": "Đồng bộ Health Connect thất bại"
+  }
+}

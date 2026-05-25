@@ -1,0 +1,60 @@
+# Multi-stage build for Node.js TypeScript Worker
+# Stage 1: Build stage
+FROM node:18-alpine AS builder
+
+# Install dumb-init for proper signal handling
+RUN apk add --no-cache dumb-init
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install all dependencies (including devDependencies for building)
+RUN npm ci --silent
+
+# Copy source code
+COPY . .
+
+# Build the TypeScript application
+RUN npm run build
+
+# Stage 2: Production stage
+FROM node:18-alpine AS production
+
+# Install dumb-init for proper signal handling
+RUN apk add --no-cache dumb-init
+
+# Create a non-root user
+RUN addgroup -g 1001 -S nodejs && \
+    adduser -S nodeuser -u 1001
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install only production dependencies
+RUN node --max-old-space-size=2048 $(which npm) ci --only=production --silent && npm cache clean --force
+
+# Copy built application from build stage
+COPY --from=builder /app/dist ./dist
+
+# Change ownership to non-root user
+RUN chown -R nodeuser:nodejs /app
+
+# Switch to non-root user
+USER nodeuser
+
+# Set environment variables
+ENV NODE_ENV=production
+
+# Health check for the worker (optional - checks if process is running)
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+  CMD pgrep -f "node.*start-activity-worker" > /dev/null || exit 1
+
+# Use dumb-init to handle signals properly and start the worker
+ENTRYPOINT ["dumb-init", "--"]
+CMD ["node", "dist/workers/start-activity-worker.js"] 

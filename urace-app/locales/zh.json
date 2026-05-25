@@ -1,0 +1,198 @@
+{
+  "language": {
+    "title": "语言",
+    "select": "选择显示语言",
+    "display": "显示您的语言"
+  },
+  "theme": {
+    "title": "主题",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "profile": {
+    "title": "我的资料",
+    "default_name": "用户",
+    "default_email": "email@example.com",
+    "sections": {
+      "account": "账户设置",
+      "preferences": "界面与语言",
+      "strava": "STRAVA 集成"
+    },
+    "menu": {
+      "detail_information": {
+        "label": "详细信息",
+        "description": "更新您的个人资料信息"
+      },
+      "change_password": {
+        "label": "修改密码",
+        "description": "更新账户密码"
+      }
+    },
+    "preferences_menu": {
+      "language": {
+        "label": "语言",
+        "description": "选择显示语言"
+      },
+      "theme": {
+        "label": "主题",
+        "description": "浅色 / 深色模式"
+      }
+    },
+    "strava": {
+      "connect": "连接 Strava",
+      "sync": "自动同步您的活动",
+      "connected": "已连接",
+      "default_initial": "S"
+    },
+    "actions": {
+      "logout": "退出登录"
+    },
+    "units": {
+      "height": "厘米",
+      "weight": "公斤"
+    }
+  },
+  "activities": {
+    "today": "今天",
+    "week": "周",
+    "month": "月",
+    "year": "年",
+    "distance": "距离",
+    "time_stats": "时间与统计",
+    "pace_trend": "配速趋势",
+    "workout_type": "训练类型",
+    "title": "我的活动",
+    "total": "{{count}} 个活动",
+    "statistics": "统计",
+    "recent": "最近活动",
+    "count": "{{count}} 个活动",
+    "no_data_title": "暂无活动",
+    "no_data_desc": "看起来您最近还没有任何活动。开始运动时，我们随时为您服务！",
+    "no_data_period": "此时间段内没有活动",
+    "connect_strava_title": "连接 Strava",
+    "connect_strava_desc": "连接您的 Strava 账户以自动同步活动。",
+    "connect_strava_first": "请先连接您的 Strava 账户",
+    "sync_success": "活动同步成功",
+    "sync_failed": "活动同步失败",
+    "try_again": "请稍后再试"
+  },
+  "validation": {
+    "currentPasswordRequired": "请输入当前密码",
+    "newPasswordRequired": "请输入新密码",
+    "passwordMinLength": "密码至少需要 8 个字符",
+    "passwordsDoNotMatch": "密码不匹配"
+  },
+  "common": {
+    "updating": "正在更新...",
+    "cancel": "取消",
+    "loading": "加载中..."
+  },
+  "auth": {
+    "passwordHint": "请使用至少 8 位字符的强密码，包括数字和特殊字符。",
+    "updatePassword": "更新密码"
+  },
+  "toast": {
+    "updateProfileSuccess": "个人资料更新成功",
+    ".updateProfileFailed": "个人资料更新失败"
+  },
+  "detail-profile": {
+    "edit": "编辑资料",
+    "update": "更新您的个人信息"
+  },
+  "groups": {
+    "title": "群组",
+    "subtitle": "与您的跑步社区保持联系",
+    "search_placeholder": "搜索群组...",
+    "my_groups": "我的群组",
+    "discover_groups": "发现",
+    "no_joined_groups": "您尚未加入任何群组。创建一个群组或寻找其他群组加入吧！",
+    "no_available_groups": "目前没有可加入的群组。请稍后再试或创建您自己的群组。",
+    "no_search_result": "未找到 \"{{query}}\" 相关群组",
+    "create_group": "创建群组"
+  },
+  "group_detail": {
+    "title": "群组详情",
+    "edit_group": "编辑群组",
+    "cancel_request": "取消申请",
+    "join_group": "加入群组",
+    "delete_group": "删除群组",
+    "leave_group": "退出群组",
+    "tabs": {
+      "contests": "比赛",
+      "members": "成员"
+    },
+    "toast": {
+      "delete_success": "删除群组成功",
+      "delete_failed": "删除群组失败",
+      "leave_success": "退出群组成功",
+      "leave_failed": "退出群组失败",
+      "request_success": "加入申请发送成功",
+      "request_failed": "发送加入申请时发生错误",
+      "cancel_request_success": "取消申请成功",
+      "cancel_request_failed": "取消申请时发生错误"
+    },
+    "modal": {
+      "delete_title": "删除群组？",
+      "delete_message": "此操作无法撤销。\"{{groupName}}\" 中的所有比赛和成员将被永久删除。",
+      "delete_confirm": "删除",
+      "leave_title": "退出群组？",
+      "leave_message": "您确定要退出此群组吗？您将失去所有比赛和活动的访问权限。",
+      "leave_confirm": "退出群组",
+      "join_title": "加入群组？",
+      "join_message": "发送加入 \"{{groupName}}\" 的申请？管理员需要批准您的申请。",
+      "join_confirm": "发送申请",
+      "cancel_request_title": "取消申请？",
+      "cancel_request_message": "您确定要取消加入申请吗？如果改变主意，您需要重新申请。",
+      "cancel_request_confirm": "取消申请",
+      "go_back": "返回"
+    },
+    "private_group_title": "这是一个私人群组",
+    "private_contests_content": "您需要成为成员才能查看比赛信息",
+    "private_members_content": "您需要成为成员才能查看成员信息"
+  },
+  "connect_strava": {
+    "title": "Strava 集成",
+    "subtitle": "同步您的跑步活动",
+    "connected_title": "已连接 Strava",
+    "connected_desc": "您的活动正在自动同步",
+    "syncing_active": "同步中",
+    "disconnect": "断开 Strava 连接",
+    "connect_title": "连接 Strava",
+    "connect_desc": "关联您的 Strava 账户以自动同步跑步和骑行活动",
+    "feature_auto_sync": "自动同步活动",
+    "feature_track_progress": "跟踪您的进度",
+    "feature_compete": "与朋友一起竞争",
+    "connect_button": "连接 Strava",
+    "redirect_note": "您将被重定向到 Strava 进行授权",
+    "toast_connected_title": "Strava 连接成功！",
+    "toast_connected_desc": "您的活动将自动同步",
+    "toast_connection_failed_title": "连接失败",
+    "toast_connection_cancelled": "已取消连接",
+    "toast_init_failed": "无法初始化连接",
+    "toast_connect_failed_title": "无法连接到 Strava",
+    "toast_try_again": "请再试一次",
+    "error_access_denied": "您已取消 Strava 授权",
+    "error_missing_code": "授权失败 - 缺少验证码",
+    "error_missing_state": "会话无效 - 请重试",
+    "error_invalid_state": "会话无效 - 请重新登录",
+    "error_invalid_token": "会话已过期 - 请重新登录",
+    "error_user_not_found": "未找到用户 - 请重新登录",
+    "error_server": "服务器错误 - 请稍后重试",
+    "error_already_connected": "您的账户已连接",
+    "error_strava_already_connected": "此 Strava 账户已连接到其他用户",
+    "error_token_exchange_failed": "连接失败 - 请重试",
+    "error_strava_auth_failed": "连接失败 - 请重试",
+    "error_unknown": "发生未知错误"
+  },
+  "tabs": {
+    "dashboard": "首页",
+    "groups": "群组",
+    "activities": "活动",
+    "connect": "连接",
+    "profile": "个人"
+  },
+  "healthConnect": {
+    "syncSuccess": "Health Connect 同步成功",
+    "syncFailed": "Health Connect 同步失败"
+  }
+}

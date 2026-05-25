@@ -1,0 +1,219 @@
+{
+  "language": {
+    "title": "Language",
+    "select": "Select your preferred language",
+    "display": "Display your language"
+  },
+
+   "theme": {
+    "title": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "profile": {
+    "title": "My Profile",
+    "default_name": "User",
+    "default_email": "email@example.com",
+
+    "sections": {
+      "account": "ACCOUNT SETTINGS",
+      "preferences": "THEME & LANGUAGES",
+      "strava": "STRAVA INTEGRATION"
+    },
+
+    "menu": {
+      "detail_information": {
+        "label": "Detail Information",
+        "description": "Update your profile details"
+      },
+      "change_password": {
+        "label": "Change Password",
+        "description": "Update your account password"
+      }
+    },
+
+    "preferences_menu": {
+      "language": {
+        "label": "Language",
+        "description": "Select display language"
+      },
+      "theme": {
+        "label": "Theme",
+        "description": "Light / Dark mode"
+      }
+    },
+
+    "strava": {
+      "connect": "Connect Strava",
+      "sync": "Sync your activities automatically",
+      "connected": "Connected",
+      "default_initial": "S"
+    },
+
+    "actions": {
+      "logout": "Log Out"
+    },
+
+    "units": {
+      "height": "cm",
+      "weight": "kg"
+    }
+  },
+
+  "activities": {
+    "today": "Today",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+
+    "distance": "Distance",
+    "time_stats": "Time & Stats",
+    "pace_trend": "Pace Trend",
+    "workout_type": "Workout Type",
+
+    "title": "My Activities",
+    "total": "{{count}} total activities",
+
+    "statistics": "Statistics",
+    "recent": "Recent Activities",
+    "count": "{{count}} activities",
+
+    "no_data_title": "No activities available",
+    "no_data_desc": "It looks like you haven't had any recent activity. We're here when you're ready!",
+    "no_data_period": "No activities for this period",
+
+    "connect_strava_title": "Connect to Strava",
+    "connect_strava_desc": "Connect your Strava account to sync your activities automatically.",
+
+    "connect_strava_first": "Please connect your Strava account first",
+    "sync_success": "Activities synced successfully",
+    "sync_failed": "Failed to sync activities",
+    "try_again": "Please try again later"
+  },
+
+
+
+
+   "validation": {
+    "currentPasswordRequired": "Current password is required",
+    "newPasswordRequired": "New password is required",
+    "passwordMinLength": "Password must be at least 8 characters",
+    "passwordsDoNotMatch": "Passwords do not match"
+  },
+  "common": {
+    "updating": "Updating..."
+  },
+    "auth": {
+    "passwordHint": "Use a strong password with at least 8 characters including numbers, and special characters.",
+    "updatePassword": "Update Password"
+
+  },
+  "toast": {
+    "updateProfileSuccess":"Profile updated successfully",
+    ".updateProfileFailed": "Failed to update profile"
+  },
+
+  "detail-profile":{
+    "edit": "Edit your profile",
+    "update": "Update your personal information"
+  },
+
+   "groups": {
+    "title": "Groups",
+    "subtitle": "Connect with your running community",
+    "search_placeholder": "Search groups...",
+    "my_groups": "My groups",
+    "discover_groups": "Discover",
+    "no_joined_groups": "You haven't joined any groups yet. Create one or browse other groups to join!",
+    "no_available_groups": "No groups available to join right now. Try again later or create your own.",
+    "no_search_result": "No groups found for \"{{query}}\"",
+    "create_group": "Create group"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "loading": "Loading..."
+  },
+  "group_detail": {
+    "title": "Group Details",
+    "edit_group": "Edit group",
+    "cancel_request": "Cancel request",
+    "join_group": "Join group",
+    "delete_group": "Delete group",
+    "leave_group": "Leave group",
+    "tabs": {
+      "contests": "Contests",
+      "members": "Members"
+    },
+    "toast": {
+      "delete_success": "Delete group successfully",
+      "delete_failed": "Failed to delete group",
+      "leave_success": "Left group successfully",
+      "leave_failed": "Failed to leave group",
+      "request_success": "Request to join successfully",
+      "request_failed": "There is error when requesting to join group",
+      "cancel_request_success": "Cancel request successfully",
+      "cancel_request_failed": "There is error when cancelling request"
+    },
+    "modal": {
+      "delete_title": "Delete Group?",
+      "delete_message": "This action cannot be undone. All contests and members in \"{{groupName}}\" will be removed permanently.",
+      "delete_confirm": "Delete",
+      "leave_title": "Leave Group?",
+      "leave_message": "Are you sure you want to leave this group? You will lose access to all contests and activities.",
+      "leave_confirm": "Leave",
+      "join_title": "Join Group?",
+      "join_message": "Send a request to join \"{{groupName}}\"? The admin will need to approve your request.",
+      "join_confirm": "Send Request",
+      "cancel_request_title": "Cancel Request?",
+      "cancel_request_message": "Are you sure you want to cancel your join request? You will need to send a new request if you change your mind.",
+      "cancel_request_confirm": "Cancel Request",
+      "go_back": "Go Back"
+    },
+    "private_group_title": "This is a private group",
+    "private_contests_content": "You need to be a member to view contests information",
+    "private_members_content": "You need to be a member to view members information"
+  },
+  "connect_strava": {
+    "title": "Strava Integration",
+    "subtitle": "Sync your running activities",
+    "connected_title": "Connected to Strava",
+    "connected_desc": "Your activities are syncing automatically",
+    "syncing_active": "Syncing active",
+    "disconnect": "Disconnect Strava",
+    "connect_title": "Connect with Strava",
+    "connect_desc": "Link your Strava account to automatically sync your running and cycling activities",
+    "feature_auto_sync": "Auto-sync your activities",
+    "feature_track_progress": "Track your progress",
+    "feature_compete": "Compete with friends",
+    "connect_button": "Connect with Strava",
+    "redirect_note": "You'll be redirected to Strava to authorize",
+    "toast_connected_title": "Successfully connected to Strava!",
+    "toast_connected_desc": "Your activities will now sync automatically",
+    "toast_connection_failed_title": "Connection failed",
+    "toast_connection_cancelled": "Connection cancelled",
+    "toast_init_failed": "Failed to initialize connection",
+    "toast_connect_failed_title": "Failed to connect to Strava",
+    "toast_try_again": "Please try again",
+    "error_access_denied": "You cancelled the Strava authorization",
+    "error_missing_code": "Authorization failed - missing code",
+    "error_missing_state": "Invalid session - please try again",
+    "error_invalid_state": "Invalid session - please log in again",
+    "error_invalid_token": "Session expired - please log in again",
+    "error_user_not_found": "User not found - please log in again",
+    "error_server": "Server error - please try again",
+    "error_already_connected": "Your account is already connected",
+    "error_strava_already_connected": "This Strava account is connected to another user",
+    "error_token_exchange_failed": "Failed to connect - please try again",
+    "error_strava_auth_failed": "Connection failed - please try again",
+    "error_unknown": "An error occurred"
+  },
+  
+  "tabs": {
+    "dashboard": "Dashboard",
+    "groups": "Groups",
+    "activities": "Activities",
+    "connect": "Connect",
+    "profile": "Profile"
+}
+
+}
